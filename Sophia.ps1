@@ -455,7 +455,7 @@ ShortcutsSuffix -Disable
 
 # Use the Print screen button to open screen snipping
 # Использовать кнопку PRINT SCREEN, чтобы запустить функцию создания фрагмента экрана
-PrtScnSnippingTool -Enable
+# PrtScnSnippingTool -Enable
 
 # Do not use the Print screen button to open screen snipping (default value)
 # Не использовать кнопку PRINT SCREEN, чтобы запустить функцию создания фрагмента экрана (значение по умолчанию)
@@ -903,7 +903,7 @@ RunPowerShellShortcut -Elevated
 #region Gaming
 # Choose an app and set the "High performance" graphics performance for it. Only if you have a dedicated GPU
 # Выбрать приложение и установить для него параметры производительности графики на "Высокая производительность". Только при наличии внешней видеокарты
-SetAppGraphicsPerformance
+#SetAppGraphicsPerformance
 
 <#
 	Turn on hardware-accelerated GPU scheduling. Restart needed
@@ -912,7 +912,7 @@ SetAppGraphicsPerformance
 	Включить планирование графического процессора с аппаратным ускорением. Необходима перезагрузка
 	Только при наличии внешней видеокарты и WDDM версии 2.7 и выше
 #>
-GPUScheduling -Enable
+#GPUScheduling -Enable
 
 # Turn off hardware-accelerated GPU scheduling (default value). Restart needed
 # Выключить планирование графического процессора с аппаратным ускорением (значение по умолчанию). Необходима перезагрузка
